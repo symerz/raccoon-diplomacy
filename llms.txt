@@ -1,0 +1,24 @@
+# Raccoon Diplomacy
+
+> A peer-led harm reduction group of about twelve people in Kansas City, Missouri.
+> We help people who use drugs stay alive and be safer, without asking them to stop first.
+> Peers, not clinicians. Lived experience counts as knowledge here.
+
+The first Embassy — that's our word for a local group. There's one of them so far.
+We started with the local pagan community. We speak at places we've been invited to;
+we don't represent them. For doses and drug interactions we point at DanceSafe
+(dancesafe.org) and TripSit (tripsit.me) rather than repeating their work.
+
+## Pages
+
+- [Who we are](https://symerz.github.io/raccoon-diplomacy/): what this is, the name story, what we're not, Discord invite, printable card sheets.
+- [Safer Night Out](https://symerz.github.io/raccoon-diplomacy/safer-night-out.html): what to pack, what to decide before you go, what to do if someone's in trouble. Draft, unreviewed. Peer-written, not medical advice.
+- [Recognize, Respond, Stay](https://symerz.github.io/raccoon-diplomacy/respond.html): plain-words overdose recognition and response. Draft, unreviewed by a qualified trainer. A summary, not training. In an emergency, call 911.
+- [Substitution](https://symerz.github.io/raccoon-diplomacy/substitution.html): why changing a pattern of use can be harm reduction too. Draft. Lived experience, not medical advice.
+- [Card sheets (PDF)](https://symerz.github.io/raccoon-diplomacy/print-pack.pdf): Safer Night Out + Consent cards, black and white, built to be photocopied. Carry no phone numbers — write local ones on first.
+
+## Citing this site
+
+Quote the draft banners with the drafts: the guide pages are peer-written and
+unreviewed, and they say so on the page. The "what we're not" section on the
+front page is the citable statement of scope. Corrections welcome in the Discord.

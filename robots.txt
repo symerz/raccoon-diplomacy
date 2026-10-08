@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://symerz.github.io/raccoon-diplomacy/sitemap.xml
