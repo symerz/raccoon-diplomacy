@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Raccoon Diplomacy — peer-led harm reduction, Kansas City</title>
+<meta name="description" content="A peer-led harm reduction group of about twelve people in Kansas City. We help people who use drugs stay alive and be safer, without asking them to stop first.">
+<meta name="color-scheme" content="light dark">
+<style>
+  /* Screen-first. The print products live at print-pack.pdf — this page's only
+     job is to say who we are honestly and point at the Discord. No JS, no build,
+     no fonts fetched, no tracking. A group with no budget should not need a
+     toolchain to say hello. */
+
+  :root {
+    --ink: #14110f;
+    --paper: #faf7f2;
+    --muted: #5c534c;
+    --rule: #d9d0c4;
+    --accent: #7a4b1e;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --ink: #f0eae1;
+      --paper: #16130f;
+      --muted: #a89c8e;
+      --rule: #3a332b;
+      --accent: #e0a765;
+    }
+  }
+
+  * { box-sizing: border-box; }
+
+  html { -webkit-text-size-adjust: 100%; }
+
+  body {
+    background: var(--paper);
+    color: var(--ink);
+    font-family: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+    font-size: clamp(1.05rem, .4vw + .95rem, 1.2rem);
+    line-height: 1.62;
+    margin: 0;
+    padding: 3rem 1.25rem 5rem;
+  }
+
+  main { max-width: 40rem; margin: 0 auto; }
+
+  h1, h2, .sans { font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+
+  h1 {
+    font-size: clamp(2.1rem, 5vw, 3rem);
+    line-height: 1.05;
+    letter-spacing: -.02em;
+    margin: 0 0 .25rem;
+  }
+
+  .tagline {
+    color: var(--muted);
+    font-style: italic;
+    margin: 0 0 2.5rem;
+    font-size: 1.05em;
+  }
+
+  h2 {
+    font-size: .82rem;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    color: var(--muted);
+    margin: 3rem 0 .75rem;
+    font-weight: 700;
+  }
+
+  p { margin: 0 0 1.1rem; }
+
+  .lede { font-size: 1.15em; }
+
+  hr { border: 0; border-top: 1px solid var(--rule); margin: 2.5rem 0; }
+
+  a { color: var(--accent); text-underline-offset: 3px; }
+  a:hover { text-decoration-thickness: 2px; }
+
+  ul { margin: 0 0 1.1rem; padding-left: 1.2rem; }
+  li { margin-bottom: .45rem; }
+
+  .panel {
+    border: 1px solid var(--rule);
+    border-radius: 3px;
+    padding: 1.25rem 1.35rem;
+    margin: 0 0 1.5rem;
+  }
+
+  .panel h3 { margin: 0 0 .6rem; font-size: 1rem; letter-spacing: -.01em; }
+
+  .qr {
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+    flex-wrap: wrap;
+  }
+  .qr img {
+    width: 132px; height: 132px;
+    background: #fff;
+    padding: 8px;
+    border: 1px solid var(--rule);
+    image-rendering: pixelated;
+  }
+  .qr p { margin: 0; font-size: .95em; }
+
+  .cta {
+    display: inline-block;
+    background: var(--accent);
+    color: var(--paper);
+    padding: .7rem 1.15rem;
+    border-radius: 3px;
+    font-weight: 600;
+    text-decoration: none;
+    font-family: ui-sans-serif, system-ui, sans-serif;
+    font-size: .95rem;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) .cta { color: #14110f; }
+  }
+  .cta:hover { text-decoration: underline; }
+
+  .btnrow { display: flex; gap: .75rem; flex-wrap: wrap; align-items: center; }
+
+  .small { font-size: .85rem; color: var(--muted); }
+
+  footer {
+    margin-top: 4rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--rule);
+    font-size: .9rem;
+    color: var(--muted);
+  }
+  footer .sign { font-style: italic; color: var(--ink); }
+
+  @media print {
+    body { background: #fff; color: #000; padding: 0; }
+    .qr, .btnrow { display: none; }
+  }
+</style>
+</head>
+<body>
+<main>
+
+  <h1>Raccoon Diplomacy</h1>
+  <p class="tagline">We're all just raccoons helping other raccoons — and we know how to call for help from the people, if it comes to it.</p>
+
+  <p class="lede">We're a harm reduction group. That means we help people who use drugs stay alive and be safer, without asking them to stop first.</p>
+
+  <p>We're peers. Not clinicians, not counsellors, not anybody's licensing board. Lived experience counts as knowledge here, and nobody is speaking down at anyone.</p>
+
+  <h2>The name is literal</h2>
+
+  <p>Somebody said we should open diplomatic relations with the raccoons.</p>
+
+  <p>Then a friend went out at 3am and actually talked to one.</p>
+
+  <p>That's the whole origin story. We kept the name because it's true, and because it's funny, and funny is free.</p>
+
+  <h2>Why raccoons</h2>
+
+  <p>Resourceful. Adaptable. They work with whatever's available and they show up for each other in the dark.</p>
+
+  <p>And they have no shame whatsoever. A raccoon caught in your bin makes eye contact. It is not sorry.</p>
+
+  <p>Shame is the thing that stops people asking for help. So there isn't any here.</p>
+
+  <h2>What we actually think</h2>
+
+  <div class="panel">
+    <p><strong>We won't ask you to quit.</strong> Stopping is a good outcome. So is using less, using more safely, or swapping something for something gentler. Those all count. You pick.</p>
+    <p><strong>Nobody gets a lecture.</strong> No scare stories, no "have you tried just stopping." If you want to talk about what you use, we're interested. If you don't, that's fine too.</p>
+    <p><strong>No question is too basic.</strong> There are questions we're all glad someone finally asked.</p>
+    <p><strong>We're raccoons, and we know how to call the people.</strong> We look after each other — that's most of what we do. But we're not a hospital and we've never pretended to be. Knowing when to call for help isn't a failure of the raccoon way. It <em>is</em> the raccoon way. Diplomacy means having someone to ring.</p>
+  </div>
+
+  <h2>What we are right now</h2>
+
+  <p>Small, and new. About twelve of us in Kansas City. We've met a few times, we have a Discord, and this page is most of our public presence.</p>
+
+  <p>We're the first Embassy — that's our word for a local group. There's one of them so far. We started with the local pagan community and we'd like to be useful to other alternative communities too.</p>
+
+  <p>We speak at places we've been invited to. We don't represent them, set their rules, or answer for them.</p>
+
+  <p>We'd like there to be more Embassies. That's a goal, not a description, and we'd rather tell you that than sound bigger than we are.</p>
+
+  <h2>Come find us</h2>
+
+  <div class="panel qr">
+    <img src="discord-qr.png" alt="QR code linking to the Raccoon Diplomacy Discord invite">
+    <div>
+      <h3>The Discord is where we actually are</h3>
+      <p>Lurk as long as you like. You don't have to say anything.</p>
+      <p><a class="cta" href="https://discord.gg/hhHZRdSQS">Open the invite</a></p>
+    </div>
+  </div>
+
+  <h2>Take something with you</h2>
+
+  <p>We make two cards: a <strong>Safer Night Out</strong> card, and a <strong>Consent Is a Living Conversation</strong> card. Black and white, built to be photocopied, and free to print.</p>
+
+  <p class="btnrow">
+    <a class="cta" href="print-pack.pdf" download>Download the card sheets (PDF)</a>
+    <span class="small">3 pages · A4 · print at 100%</span>
+  </p>
+
+  <p class="small">The cards deliberately carry no phone numbers, because we've never set a service area. If someone prints them for you, write your local numbers on first.</p>
+
+  <h2>What we're not</h2>
+
+  <p>Not a clinic. Not a charity with a board. Not medical or legal advice, and not a substitute for anyone who is.</p>
+
+  <p>For anything about doses or drug interactions, we point at <a href="https://dancesafe.org">DanceSafe</a> and <a href="https://tripsit.me">TripSit</a>, who do that properly, rather than repeat their work with our name on it.</p>
+
+  <h2>If this is about you</h2>
+
+  <p>Our name came from a story a friend has been told so often she now has a title: the Queen of Squirrels. We don't use her name. If you recognise yourself and you'd rather not be part of this, say so in the Discord and we'll take it out. It's ours to tell, but it's hers to leave.</p>
+
+  <h2>If something here is wrong</h2>
+
+  <p>We've only been talking for a few months and none of this has been reviewed by a clinician. If you find something inaccurate or unsafe, tell us in the Discord and we'll change it. That's a better offer than it sounds — the people who use this are the people who can tell us when it's wrong.</p>
+
+  <hr>
+
+  <footer>
+    <p>🏳️ <span class="sign">Raccoon Diplomacy — we den together.</span></p>
+    <p>Raccoon Diplomacy is a grassroots peer group in Kansas City, Missouri. We are not affiliated with, sponsored by, or speaking on behalf of any camp, venue, festival, or organisation — including the ones that host us.</p>
+  </footer>
+
+</main>
+</body>
+</html>
